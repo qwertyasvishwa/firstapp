@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { AbcComponent } from './abc/abc.component';
 import { XyzComponent } from './xyz/xyz.component';
 import { PqrComponent } from './xyz/pqr/pqr.component';
+import { ComponentsComponent } from './components.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AbcComponent,
     XyzComponent,
-    PqrComponent
+    PqrComponent,
+    ComponentsComponent
   ],
   imports: [
     BrowserModule,

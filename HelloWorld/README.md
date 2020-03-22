@@ -31,3 +31,14 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## All About Angular Project Structure Now
 src Folder : You will find all the files related to project will be find here.
+
+## Componenets
+Yes now you can make the componenets just using the commands `ng g c abc`. 
+It is the abbreviation of the commands of the `ng genrate component abc`
+
+To make the components nester under one components, you can simply use `ng g c abc/xyz`
+
+You can see all the components under the `app` folder in the `src`.
+
+And yes, if you dont want to add any of the folders for the component, you can simply use the `ng g c components --flat`
+This command will create a component with the name of the components without a folder.
