@@ -42,3 +42,9 @@ You can see all the components under the `app` folder in the `src`.
 
 And yes, if you dont want to add any of the folders for the component, you can simply use the `ng g c components --flat`
 This command will create a component with the name of the components without a folder.
+
+Use `dry run` options to see the list of files and folders that will be generated without creating any files and folders.
+For example : `ng g c ghi -d`
+
+`-d` is an alias for the `dry run options`
+
