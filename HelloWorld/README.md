@@ -48,3 +48,11 @@ For example : `ng g c ghi -d`
 
 `-d` is an alias for the `dry run options`
 
+## Service
+To create the service is very similar to the creating the components.
+Use the commands `ng g s customer` for the service.
+
+But remember your service won't register automtically. 
+There are two ways to register it now : 
+1) Manual
+2) Or by instructing the Angular CLI to register it with specific module.
